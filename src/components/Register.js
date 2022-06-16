@@ -1,6 +1,7 @@
 import "./Register.css";
+import Login from './Login';
 
-function Register(params) {
+function Register() {
     
     return (
       <div>
@@ -41,7 +42,7 @@ function Register(params) {
             </div>
                 <div className="form-group buttons">
                     <button className="reg_btn" name="regbtn" type="submit">Register</button>
-                    <a href="login.php" > Already have an account? login</a>
+                    <a href="https://www.pluralsight.com/guides/understanding-links-in-reactjs"> Already have an account? login</a>
                 </div>
             </div>
     </form>
